@@ -1,0 +1,34 @@
+{
+  "name": "micro-app",
+  "version": "0.1.0",
+  "description": "A template for https://github.com/vercel/micro",
+  "main": "app.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev",
+    "test": "ava",
+    "coverage": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqrthree/micro-app.git"
+  },
+  "author": "sqrtthree <imsqrtthree@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sqrthree/micro-app/issues"
+  },
+  "homepage": "https://github.com/sqrthree/micro-app#readme",
+  "dependencies": {
+    "@sqrtthree/wraps": "~0.3.1",
+    "dotenv": "~8.2.0",
+    "micro": "~9.3.4"
+  },
+  "devDependencies": {
+    "ava": "~3.15.0",
+    "micro-dev": "~3.0.0",
+    "node-fetch": "~2.6.1",
+    "nyc": "~15.1.0",
+    "test-listen": "~1.1.0"
+  }
+}
