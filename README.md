@@ -1,2 +1,3 @@
 # micro-app
-A app template for https://github.com/vercel/micro
+
+A template for https://github.com/vercel/micro
